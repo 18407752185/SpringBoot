@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@RequestMapping("")
 	public String hello() {
-		return "helloworld2";
+		return "SpringBoot，hello演示";
 	}
 }
